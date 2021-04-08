@@ -65,6 +65,10 @@ footer {
     min-height: 600px;
 }
 
+.gallery-item {
+    min-height: 280px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
