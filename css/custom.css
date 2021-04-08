@@ -69,6 +69,10 @@ footer {
     min-height: 280px;
 }
 
+.fs-12 {
+    font-size: 12px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
