@@ -87,37 +87,71 @@
 
         <section class="bg-dark">
             <div class="container">
-                <div class="row py-5 text-white">
-                    <div class="col text-center">
-                        <h6>Our Services</h6>
-                        <h1>Arizona Mobile Golf Car Service</h1>
-                        <p>We specialize in on-site repair for all your golf car/electrical vehicle needs. If for any reason we cannot repair your vehicle on-site we have a full repair facility for all makes and model golf cars and electric vehicles.</p>
-                        <h3>480.636.1649</h3>
+                <div class="row py-5 text-white section-large">
+                    <div class="col text-center my-auto">
+                        <h6 class="text-uppercase text-primary">Our Services</h6>
+                        <h1 class="mb-4">Arizona Mobile Golf Car Service</h1>
+                        <div class="row">
+                            <div class="col-12 col-lg-8 col-xl-6 mx-auto">
+                                <p>We specialize in on-site repair for all your golf car/electrical vehicle needs. If for any reason we cannot repair your vehicle on-site we have a full repair facility for all makes and model golf cars and electric vehicles.</p>
+                            </div>
+                        </div>
+                        
+                        <h3 class="font-lato fw-bolder mb-5">480.636.1649</h3>
                     </div>
                 </div>
             </div>
         </section>
 
         <section>
-            <div class="container">
-                <div class="row py-5">
-                    <div class="col">
-                        <h2>Mobile On-site Repair</h2>
-                        <p>We specialize in on-site repair for all of your golf cart & electric vehicle needs. We will come to you - Anywhere in the valley!</p>
-                        <ul class="list-group">
-                            <li class="list-group-item">Battery Service/Replacement</li>
-                            <li class="list-group-item">Annual Service/Tune-up</li>
-                            <li class="list-group-item">Suspension & Brakes</li>
-                            <li class="list-group-item">Charger Repair</li>
-                            <li class="list-group-item">Complete Electrical Overhaul</li>
-                            <li class="list-group-item">and more...</li>
-                        </ul>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="row">
+                            <div class="col-12 col-xl-10 offset-sm-1 py-5">
+                                <h3>Mobile On-site Repair</h3>
+                                <p>We specialize in on-site repair for all of your golf cart & electric vehicle needs. We will come to you - Anywhere in the valley!</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Battery Service/Replacement</li>
+                                    <li class="list-group-item">Annual Service/Tune-up</li>
+                                    <li class="list-group-item">Suspension & Brakes</li>
+                                    <li class="list-group-item">Charger Repair</li>
+                                    <li class="list-group-item">Complete Electrical Overhaul</li>
+                                    <li class="list-group-item">and more...</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 bg-dark text-white">
+                                <div class="col-12 col-xl-10 offset-sm-1">
+                                    <div class="card my-3 bg-dark">
+                                        <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="https://st.depositphotos.com/1269204/1219/i/600/depositphotos_12196477-stock-photo-smiling-men-isolated-on-the.jpg" alt="..." class="img-fluid">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-12 col-sm-6 p-0">
+                        <div class="map-responsive h-100">
+                            <iframe src="https://www.google.com/maps/d/u/6/embed?mid=15ZZ7Ck4SyXRD-V-MFpSPISWUORe7YNZs" width="640" height="480"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section>
+        <section class="bg-light">
             <div class="container">
                 <div class="row py-5">
                     <div class="col">
@@ -213,6 +247,18 @@
         </footer>
         
     </main>
+
+    <script>
+        // [START maps_control_disableUI]
+        function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: { lat: -33, lng: 151 },
+            disableDefaultUI: true,
+        });
+        }
+        // [END maps_control_disableUI]
+    </script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
