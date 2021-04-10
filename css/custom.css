@@ -156,7 +156,7 @@ li.timeline-item::before {
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .hero {
-        min-height: 740px;
+        min-height: 700px;
     }
     .services-paragraph {
         min-height: 50px;
