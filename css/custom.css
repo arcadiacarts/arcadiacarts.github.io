@@ -56,6 +56,11 @@ footer {
     height: auto;
 }
 
+.logo-azmgcs {
+    width: 90px;
+    height: auto;
+}
+
 .logo-footer {
     width: 180px;
     height: auto;
@@ -169,3 +174,20 @@ li.timeline-item::before {
         min-height: 320px;
     }
 }
+
+/* @media (max-width:767px) {
+    .navbar-header {
+      display:flex;
+    }
+    
+    .navbar-brand {
+      order:1;
+      margin-right: auto;
+    }
+    
+    .navbar-toggle {
+      order:0;
+      margin-left:15px;
+      margin-right:0;
+    }
+  } */
