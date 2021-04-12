@@ -44,11 +44,13 @@ footer {
 }
 
 .hero {
-    min-height: 600px;
 }
 
 .hero-title {
     font-size: 2.75rem;
+}
+
+.hero-cart {
 }
 
 .logo-header {
@@ -145,8 +147,18 @@ li.timeline-item::before {
     .hero-title {
         font-size: 3.5rem;
     }
+
     .services-paragraph {
         min-height: 75px;
+    }
+
+    .hero-cart {
+        position: absolute;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        right: -20vw;
+        height: 100%;
+        width: 510px;
     }
 }
 
@@ -172,6 +184,12 @@ li.timeline-item::before {
 @media (min-width: 1400px) {
     .gallery-item {
         min-height: 320px;
+    }
+}
+
+@media (max-width:767px) {
+    .hero-cart {
+        max-width: 300px;
     }
 }
 
