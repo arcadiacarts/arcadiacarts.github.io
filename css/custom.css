@@ -156,7 +156,7 @@ li.timeline-item::before {
         position: absolute;
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
-        right: -20vw;
+        right: -60px;
         height: 100%;
         width: 510px;
     }
@@ -168,6 +168,14 @@ li.timeline-item::before {
         min-width: 126px;
         height: auto;
     }
+
+    .hero-cart {
+        position: absolute;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        right: 5%;
+        height: 100%;
+    }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -177,6 +185,15 @@ li.timeline-item::before {
     }
     .services-paragraph {
         min-height: 50px;
+    }
+
+    .hero-cart {
+        position: absolute;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        right: 5%;
+        height: 100%;
+        width: 761px;
     }
 }
 
