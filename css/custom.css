@@ -10,6 +10,14 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 700;
 }
 
+.btn, .nav-link {
+    text-transform: uppercase;
+}
+
+.btn-link {
+    font-weight: 600;
+}
+
 .fw-100 { font-weight: 100; }
 .fw-200 { font-weight: 200; }
 .fw-300 { font-weight: 300; }
@@ -25,7 +33,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 footer {
-    background-color: #121820;
+    background-color: #191919;
 }
 
 .map-responsive{
