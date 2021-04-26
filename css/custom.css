@@ -1,12 +1,13 @@
 html {
     overflow-y: scroll;
+    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 700;
 }
 
@@ -15,7 +16,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .btn-link {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .fw-100 { font-weight: 100; }
@@ -36,6 +37,16 @@ footer {
     background-color: #191919;
 }
 
+header, .navbar {
+    z-index: 9;
+}
+
+.navbar-toggler:focus {
+        outline: none;
+        border: none;
+        box-shadow: none;
+}
+
 .map-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
@@ -52,13 +63,11 @@ footer {
 }
 
 .hero {
+    padding-top: 105px;
 }
 
 .hero-title {
     font-size: 2.75rem;
-}
-
-.hero-cart {
 }
 
 .logo-header {
@@ -100,6 +109,29 @@ footer {
     background: linear-gradient(-45deg, #253241, #30455d, #2b5a90, #12355d);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+}
+
+.hero-container {
+    z-index: 1;
+}
+
+.bg-slash {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    height: 55%;
+    bottom: -1px;
+}
+
+.bg-slash svg {
+    width: calc(100% + 2px);
+    height: 100%;
+}
+
+.bg-slash-fill {
+    fill: #ffffff !important;
 }
 
 @keyframes gradient {
@@ -168,6 +200,8 @@ li.timeline-item::before {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Responsive */
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
@@ -175,6 +209,10 @@ li.timeline-item::before {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .hero {
+        padding-top: 129px;
+    }
+
     .hero-title {
         font-size: 3.5rem;
     }
@@ -195,6 +233,10 @@ li.timeline-item::before {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .hero {
+        padding-top: 143px;
+    }
+
     .logo-header {
         min-width: 126px;
         height: auto;
@@ -211,7 +253,7 @@ li.timeline-item::before {
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .hero {
+    .hero-height {
         min-height: 700px;
     }
     .services-paragraph {
@@ -241,19 +283,8 @@ li.timeline-item::before {
     }
 }
 
-/* @media (max-width:767px) {
-    .navbar-header {
-      display:flex;
+@media (max-width:767px) {
+    header {
+      background-color: #212529;
     }
-    
-    .navbar-brand {
-      order:1;
-      margin-right: auto;
-    }
-    
-    .navbar-toggle {
-      order:0;
-      margin-left:15px;
-      margin-right:0;
-    }
-  } */
+  }
