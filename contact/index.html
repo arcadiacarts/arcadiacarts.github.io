@@ -31,30 +31,39 @@
 
   </head>
   <body>
-    <header>
-        <div class="bg-dark bg-cover bg-center-center text-white">
-            <div class="container-fluid">
-                <div class="row py-2">
-                    <div class="col-12 col-sm-3 col-xl-4 text-center text-sm-start d-none d-sm-block fw-600">
-                        <small>Servicing all of Arizona</small>
+    <header class="d-block w-100 position-absolute ac-nav">
+        <div class="text-white border-bottom border-light">
+            <div class="container-fluid pe-lg-0">
+                <div class="row">
+                    <div class="col-12 col-sm-3 col-xl-4 d-none d-xl-flex fw-600">
+                        <div class="d-flex flex-fill align-items-center">
+                            <a href="https://www.google.com/maps/place/2001+W+Cheryl+Dr+%231C,+Phoenix,+AZ+85021/@33.578168,-112.102223,17z/data=!4m5!3m4!1s0x872b6c4e13d752ab:0x867154fbd23a888a!8m2!3d33.5781684!4d-112.1022227?hl=en" class="text-light fw-600 text-decoration-none" target="_blank"><i class="fas fa-map-marker-alt me-2"></i> 2001 W Cheryl Dr #1C-1D, Phoenix, AZ 85021</a>
+                        </div>
                     </div>
-                    <div class="col text-center fw-600">
-                        <small><i class="fas fa-phone me-2 text-muted"></i> 480.636.1649</small>
+                    <div class="col text-center fw-600 d-flex">
+                        <div class="d-flex flex-fill align-items-center justify-content-center">
+                            <i class="fas fa-phone me-2"></i> 480.636.1649
+                        </div>
                     </div>
                     <div class="col-12 col-sm-6 col-xl-4 text-center text-sm-end d-none d-sm-block">
-                        <a href="https://www.google.com/maps/place/2001+W+Cheryl+Dr+%231C,+Phoenix,+AZ+85021/@33.578168,-112.102223,17z/data=!4m5!3m4!1s0x872b6c4e13d752ab:0x867154fbd23a888a!8m2!3d33.5781684!4d-112.1022227?hl=en" class="text-white fw-600 text-decoration-none" target="_blank"><small><i class="fas fa-map-marker-alt me-2 text-muted"></i> 2001 W Cheryl Dr #1C-1D, Phoenix, AZ 85021</small></a>
+                        <div class="btn-group" role="group" aria-label="Basic outlined example">
+                            <a class="btn btn-outline-light border-bottom-0 border-top-0 rounded-0" href="https://www.instagram.com/arcadiacartsphx/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light border-bottom-0 border-top-0" href="https://www.facebook.com/Arcadia-Carts-100911328128819" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light border-bottom-0 border-top-0" href="https://www.linkedin.com/company/arcadiacarts/about/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light border-bottom-0 border-top-0 border-end-0" href="mailto:info@arcadiacarts.com"><i class="fas fa-envelope"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light fw-600">
-            <div class="container-fluid ">
-              <a class="navbar-brand" href="/"><img src="/img/logo-arcadia-carts.svg" class="logo-header"></a>
+        <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/"><img src="/img/logo-arcadia-carts-light.svg" class="logo-header"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav mt-3 mt-lg-0 me-auto mb-2 mb-lg-0 fw-500">
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="/">Home</a>
                   </li>
@@ -71,39 +80,30 @@
                     <a class="nav-link active" href="/contact">Contact</a>
                   </li>
                 </ul>
-                <ul class="navbar-nav mb-2 mb-lg-0 d-none d-sm-flex">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.instagram.com/arcadiacartsphx/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.facebook.com/Arcadia-Carts-100911328128819" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/company/arcadiacarts/about/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="mailto:info@arcadiacarts.com"><i class="fas fa-envelope"></i></a>
-                    </li>
-                </ul>
               </div>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="bg-light">
+        <section class="header-fix bg-dark bg-cover bg-center-center" style="background-image: url('/img/bg-arizona.jpg');">
             <div class="container-fluid">
-                <div class="row bg-dark bg-cover bg-center-center" style="background-image: url('/img/bg-arizona.jpg');">
+                <div class="row">
                     <div class="col text-white text-center my-5">
                         <h6 class="text-uppercase text-primary">Contact us</h6>
                         <h2 class="fw-bold text-uppercase mb-3">Let's get rollin</h2>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-sm-6 py-5 text-center">
+                        <h5 class="text-primary">Arcadia Carts</h5>
                         <p class="fw-600">2001 W Cheryl Dr #1C-1D<br>Phoenix, AZ 85021</p>
                         <p class="mb-0">Serving the entire Phoenix Valley</p>
-                        <h5 class="font-lato fw-800">480.636.1649</h5>
+                        <p class="fs-3 font-lato fw-800">480.636.1649</p>
                         <div class="row my-4">
                             <div class="col">
                                 <table class="table table-sm mx-auto" style="max-width: 400px;">
@@ -138,7 +138,7 @@
                                 </table>
                             </div>
                         </div>
-                        <p><a href="mailto:info@arcadiacarts.com" class="text-decoration-none text-dark">info@arcadiacarts.com</a></p>
+                        <p><a href="mailto:info@arcadiacarts.com" class="btn btn-link text-decoration-none">info@arcadiacarts.com</a></p>
                         <ul class="list-inline">
                             <li class="list-inline-item"><a href="https://www.instagram.com/arcadiacartsphx/" class="text-dark" target="_blank"><i class="fab fa-instagram"></i></a></li>
                             <li class="list-inline-item"><a href="https://www.facebook.com/Arcadia-Carts-100911328128819" class="text-dark" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -159,8 +159,8 @@
             <div class="container">
                 <div class="row py-5">
                     <div class="col text-center">
-                        <h3 class="text-uppercase fw-300">Call us today!</h3>
-                        <h3 class="fw-600">480.636.1649</h3>
+                        <p class="fs-3 text-uppercase fw-300 mb-1">Call us today!</p>
+                        <p class="fs-3 fw-600">480.636.1649</p>
                     </div>
                 </div>
             </div>

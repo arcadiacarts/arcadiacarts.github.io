@@ -62,7 +62,7 @@ header, .navbar {
     position:absolute;
 }
 
-.hero {
+.header-fix {
     padding-top: 105px;
 }
 
@@ -209,7 +209,7 @@ li.timeline-item::before {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .hero {
+    .header-fix {
         padding-top: 129px;
     }
 
@@ -233,7 +233,7 @@ li.timeline-item::before {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .hero {
+    .header-fix {
         padding-top: 143px;
     }
 
