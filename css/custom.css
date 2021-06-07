@@ -134,6 +134,14 @@ header, .navbar {
     fill: #ffffff !important;
 }
 
+.bg-large {
+    min-height: 420px;
+}
+
+.bg-feature {
+    min-height: 295px;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -229,6 +237,10 @@ li.timeline-item::before {
         height: 100%;
         width: 510px;
     }
+
+    .bg-large {
+        min-height: 640px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -280,6 +292,9 @@ li.timeline-item::before {
 @media (max-width:767px) {
     .hero-cart {
         max-width: 300px;
+    }
+    .bg-feature {
+        flex: auto;
     }
 }
 
