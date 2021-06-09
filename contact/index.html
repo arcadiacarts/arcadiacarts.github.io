@@ -102,8 +102,7 @@
                     <div class="col-12 col-sm-6 py-5 text-center">
                         <h5 class="text-primary">Arcadia Carts</h5>
                         <p class="fw-600">2001 W Cheryl Dr #1C-1D<br>Phoenix, AZ 85021</p>
-                        <p class="mb-0">Serving the entire Phoenix Valley</p>
-                        <p class="fs-3 font-lato fw-800">480.636.1649</p>
+                        <p><button href="#" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#contactModal">Contact us</button></p>
                         <div class="row my-4">
                             <div class="col">
                                 <table class="table table-sm mx-auto" style="max-width: 400px;">
@@ -138,6 +137,8 @@
                                 </table>
                             </div>
                         </div>
+                        <p class="mb-1">For immediate services &amp; repair</p>
+                        <h5>CALL 480.636.1649</h5>
                         <p><a href="mailto:info@arcadiacarts.com" class="btn btn-link text-decoration-none">info@arcadiacarts.com</a></p>
                         <ul class="list-inline">
                             <li class="list-inline-item"><a href="https://www.instagram.com/arcadiacartsphx/" class="text-dark" target="_blank"><i class="fab fa-instagram"></i></a></li>
@@ -177,7 +178,7 @@
                     <div class="col-12 col-sm-5">
                         <div class="row pb-4">
                             <div class="col-sm-5">
-                                <h5>Menu</h5>
+                                <h5 class="text-uppercase">Menu</h5>
                                 <ul class="list-unstyled lh-lg">
                                     <li><a href="/" class="text-white text-decoration-none"><i class="fas fa-caret-right me-2 text-muted"></i> Home</a></li>
                                     <li><a href="/carts" class="text-white text-decoration-none"><i class="fas fa-caret-right me-2 text-muted"></i> Carts</a></li>
@@ -187,12 +188,12 @@
                                 </ul>
                             </div>
                             <div class="col-sm-7">
-                                <h5>Contact Us</h5>
+                                <h5 class="text-uppercase">Contact Us</h5>
                                 <ul class="list-unstyled lh-lg">
                                     <li><i class="fas fa-phone me-2 text-muted"></i> 480.636.1649</li>
                                     <li><a href="mailto:info@arcadiacarts.com" class="text-white text-decoration-none"><i class="fas fa-envelope me-2 text-muted"></i> info@arcadiacarts.com</a></li>
                                     <li><a href="https://www.google.com/maps/place/2001+W+Cheryl+Dr+%231C,+Phoenix,+AZ+85021/@33.578168,-112.102223,17z/data=!4m5!3m4!1s0x872b6c4e13d752ab:0x867154fbd23a888a!8m2!3d33.5781684!4d-112.1022227?hl=en" class="text-white text-decoration-none" target="_blank"><i class="fas fa-map-marker-alt me-2 text-muted"></i> 2001 W Cheryl Dr #1C-1D, <br class="d-none d-sm-block">Phoenix, AZ 85021</a></li>
-                                    <li></li>
+                                    <li><p><button href="#" class="btn btn-outline-light btn-sm my-2" data-bs-toggle="modal" data-bs-target="#contactModal">Contact us</button></p></li>
                                 </ul>
                             </div>
                         </div>
@@ -209,6 +210,21 @@
                 </div>
             </div>
         </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title text-uppercase" id="contactModalLabel">Contact Us</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2QNr4T3GBxDnkUXnkic8uELSvRXlFjCz6Dm7eZnYwh7GOww/viewform?embedded=true" width="480" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+            </div>
+            </div>
+        </div>
         
     </main>
 
